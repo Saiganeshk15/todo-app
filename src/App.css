@@ -1,0 +1,159 @@
+.login {
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.signin:hover {
+  background-color: rgb(154, 255, 220);
+  transform: scale(1.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 426px) {
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+.signin {
+  height: 5vh;
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  border: 0px;
+  margin: auto;
+  margin-top: 40vh;
+  font-size: large;
+  border-radius: 10px;
+  transition: ease-in-out 300ms;
+
+  img {
+    height: 3vh;
+    width: 3vh;
+    margin-right: 1vw;
+  }
+}
+
+.Navbar {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  background: linear-gradient(301deg, #5ac7e6, #8bbfbf);
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 20px;
+  width: 50%;
+  padding: 0 5%;
+  border-radius: 30px;
+
+  @media screen and (max-width: 556px) {
+    width: 85vw;
+  }
+
+  input {
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: black;
+    width: 70%;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+  }
+
+  svg {
+    color: black;
+    position: relative;
+    font-size: 2.5rem !important;
+    margin-right: 3vw;
+  }
+}
+
+.logout-icon {
+  position: fixed;
+  top: 3vh;
+  right: 3vw;
+}
+
+.todos {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5ac7e6;
+  width: 45vw;
+  margin: 1vh;
+  padding: 0 2vw;
+  border-radius: 30px;
+
+  @media screen and (max-width: 426px) {
+    width: 85vw;
+    height: 6vh;
+
+    p {
+      font-size: medium !important;
+    }
+
+    svg {
+      font-size: 1rem !important;
+    }
+  }
+
+  p {
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  svg {
+    font-size: 1.5rem;
+    margin: 2vh 1vw;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    margin: 0.3em !important;
+  }
+}
+
+.header {
+  p {
+    font-weight: 500;
+  }
+}
