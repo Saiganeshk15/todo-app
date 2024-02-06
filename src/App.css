@@ -30,6 +30,7 @@
 }
 
 .signin {
+  cursor: pointer;
   height: 5vh;
   width: 30vh;
   display: flex;
@@ -91,6 +92,7 @@ form {
   }
 
   svg {
+    cursor: pointer;
     color: black;
     position: relative;
     font-size: 2.5rem !important;
@@ -99,6 +101,7 @@ form {
 }
 
 .logout-icon {
+  cursor: pointer;
   position: fixed;
   top: 3vh;
   right: 3vw;
@@ -140,6 +143,7 @@ form {
   }
 
   svg {
+    cursor: pointer;
     font-size: 1.5rem;
     margin: 2vh 1vw;
   }

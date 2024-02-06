@@ -31,7 +31,7 @@ function HomePage() {
               }
             });
           } else if (!user) {
-            navigate("/");
+            navigate("/todo-app/");
           }
         });
       }, []);
@@ -39,7 +39,7 @@ function HomePage() {
       const handleSignOut = () => {
         signOut(auth)
           .then(() => {
-            navigate("/");
+            navigate("/todo-app/");
           })
           .catch((err) => {
             alert(err.message);

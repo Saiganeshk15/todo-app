@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
-          <Route path="/" element={<Popin />} />
-          <Route path='/Homepage' element={<HomePage />} />
+          <Route path="/todo-app/" element={<Popin />} />
+          <Route path='/todo-app/Homepage' element={<HomePage />} />
         </Routes>
       </Router>
     </>
